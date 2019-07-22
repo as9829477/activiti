@@ -13,7 +13,7 @@
         <property name="password" value="123456" />
     </bean>
 
-    <!--activiti单独运行的processEngine配置，使用单独启动方式-->
+    <!--activiti单独运行的processEngine配置对象，使用单独启动方式-->
     <bean id="processEngineConfiguration" class="org.activiti.engine.impl.cfg.StandaloneProcessEngineConfiguration">
         <property name="dataSource" ref="dateSource" />
         <property name="databaseSchemaUpdate" value="true" />
