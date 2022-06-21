@@ -10,7 +10,7 @@
 
     <properties>
         <activiti.version>7.1.0.M1</activiti.version>
-        <mysql.versiom>8.0.15</mysql.versiom>
+        <mysql.versiom>8.0.28</mysql.versiom>
     </properties>
 
 
